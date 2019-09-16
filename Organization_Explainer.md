@@ -2,12 +2,14 @@
 Classes and Properties
 
 | Class	       	| CredentialOrganization| Place  	|
-| ------------- |:---------------------:| -----:	|
+| ------------- |---------------------	| -----		|
 |Properties	|name			|streetAddress	|
 |    		|subjectWebpage		|addressLocality|	
 |    		|address       	 	|addressRegion	|	
 |    		|offers	       	 	|addressCountry	|	
 |		|	       	 	|postalCode	|
+
+
 
 {
   "@context": {
