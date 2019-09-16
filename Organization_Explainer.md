@@ -10,7 +10,7 @@ Classes and Properties
 |		|	       	 	|postalCode	|
 
 
-
+```
 {
   "@context": {
     "ceterms": "http://purl.org/ctdl/terms/",
@@ -51,4 +51,4 @@ Classes and Properties
     }
   ]
 }
-
+```
