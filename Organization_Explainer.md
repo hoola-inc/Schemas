@@ -1,11 +1,14 @@
 # Organization Example
 Classes and Properties
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| Class	      	| right-aligned | $1600 |
-| Properties    | centered      |   $12 |
-| 		| are neat      |    $1 |
+| Class	       	| CredentialOrganization| Place  	|
+| ------------- |:---------------------:| -----:	|
+|Properties	|name			|streetAddress	|
+|    		|subjectWebpage		|addressLocality|	
+|    		|address       	 	|addressRegion	|	
+|    		|offers	       	 	|addressCountry	|	
+|		|	       	 	|postalCode	|
+
 {
   "@context": {
     "ceterms": "http://purl.org/ctdl/terms/",
