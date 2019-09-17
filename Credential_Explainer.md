@@ -10,6 +10,11 @@ Classes and Properties
 |		|occupationType |subjectWebpage 		|				|
 |		|ctid		|				|				|
 
+# Course (Meta)
+
+# Course (Instance)
+
+# Full JSON
 
 
 ```
