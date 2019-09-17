@@ -1,13 +1,33 @@
 # Organization Example
 Classes and Properties
 
-| Class	       	| CredentialOrganization| Place  	|
-| ------------- |---------------------	| -----		|
-|Properties	|name			|streetAddress	|
-|    		|subjectWebpage		|addressLocality|	
-|    		|address       	 	|addressRegion	|	
-|    		|offers	       	 	|addressCountry	|	
-|		|	       	 	|postalCode	|
+| Class	       	| CredentialOrganizatio		| Status  	| Place  	|
+| ------------- |--------------------- 		| -----		| -----		|
+|Properties	|ceterms:name		       	|Required	|streetAddress	|
+|    		|ceterms:subjectWebpage	       	|Required	|addressLocality|	
+|    		|ceterms:address       	       	|Required	|addressRegion	|	
+|    		|ceterms:offers	       	       	|Required	|addressCountry	|	
+|		|ceterms:agentSectorType       	|Required	|postalCode	|
+|		|ceterms:agentType	       	|Required	|		|
+|		|ceterms:DID		       	|Required	|		|
+|		|ceterms:email		       	|Required	|		|
+|		|ceterms:telephone	       	|Required	|		|
+|		|ceterms:foundingDate	       	|Recommended	|		|
+|		|ceterms:image		       	|Recommended	|		|
+|		|ceterms:foundingDate		|Recommended	|		|	
+|		|ceterms:image			|Recommended	|		|	
+|		|ceterms:jurisdiction		|Recommended	|		|	
+|		|ceterms:keyword		|Recommended	|		|	
+|		|ceterms:maintenanceProcess	|Recommended	|		|	
+|		|ceterms:parentOrganization	|Recommended	|		|	
+|		|ceterms:serviceType		|Recommended	|		|	
+|		|ceterms:socialMedia		|Recommended	|		|	
+|		|ceterms:accreditedBy		|Recommended	|		|	
+|		|ceterms:approvedBy		|Recommended	|		|	
+|		|ceterms:regulatedBy		|Recommended	|		|	
+|		|ceterms:agentPurpose		|Recommended	|		|	
+|		|ceterms:agentPurposeDescription|Recommended	|		|	
+
 
 
 ```
@@ -30,9 +50,6 @@ Classes and Properties
       "ceterms:address": {
         "@id": "_:2a1fadd8-0f6b-4b3f-9758-622cb55d489f"
       },      
-      "ceterms:fein": "946033759",
-      "ceterms:iPeds": "123013",
-      "ceterms:opeID": "00128700",
       "ceterms:subjectWebpage": {
         "@id": "http://www.santarosa.edu/"
       },
