@@ -2,16 +2,17 @@
 Classes and Properties
 
 
-# Course (Meta)
-| Class	       	| Course		|LearningOpportunityProfile  	| CredentialAlignmentObject	|
-| ------------- |---------------	|----- 				| -----				|
-|Properties	|ceterms:name		|name           		| frameworkName               	|
-|		|creditUnitType 	|creditUnitValue		| targetNodeName		|		
-|		|creditUniteValue	|creditUnitValue		| targetNodeName		|		
-|		|ctid		 	|creditUnitValue		| targetNodeName		|		
-|		|subjectWebpage 	|creditUnitValue		| targetNodeName		|		
-|		|requires       	|description    		| targetNode			|
-|		|uri/https		|subjectWebpage 		|				|
+## Course (Meta)
+| Class	       	| Course		|
+| ------------- |---------------	|
+|Properties	|ceterms:name		|
+|		|creditUnitType 	|		
+|		|creditUniteValue	|		
+|		|ctid		 	|		
+|		|subjectWebpage 	|		
+|		|prerequisite      	|
+|		|uri/https		|
+|		|hasChild		|
 
 ```
 {
@@ -44,7 +45,19 @@ Classes and Properties
 }
 ```
 
-# Course (Instance)
+## Course (Instance)
+
+| Class	       	| Course		|
+| ------------- |---------------	|
+|Properties	|ceterms:name		|
+|		|creditUnitType 	|		
+|		|creditUniteValue	|		
+|		|courseCode	 	|		
+|		|programTerm	 	|		
+|		|startDate	 	|		
+|		|endDate	 	|		
+|		|isChildOf	 	|		
+|		|prerequisite      	|
 
 ```
     {
