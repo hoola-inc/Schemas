@@ -30,6 +30,7 @@ Classes and Properties
       "ceterms:creditUnitValue": "43.5",
       "ceterms:ctid": "urn:ctid:61183b59-0669-457b-881a-a2b3bedcafdc",
       "ceterms:prerequisite": "res:642806c0-e0e2-4805-a95e-47627d5b4b9d"
+      "ceasn:hasChild": "uniqueIdentifier:1231239342423",
       "ceterms:name": {
         "@language": "en-US",
         "@value": "Dental Assisting 101"
