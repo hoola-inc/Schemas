@@ -47,7 +47,7 @@ Classes and Properties
 
 ## Course (Instance)
 
-| Class	       	| Course		|
+| Class	       	| CourseInstance	|
 | ------------- |---------------	|
 |Properties	|ceterms:name		|
 |		|creditUnitType 	|		
